@@ -1,0 +1,41 @@
+body {
+    background-color: lightblue;
+}
+
+
+.title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-align: center;
+    border: 10px solid white;
+    padding: 20px;
+    margin: 10px;
+}
+
+.by {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.description {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    border: 10px solid white;
+    padding: 20px;
+    margin: 30px;
+}
+
+.img {
+    display: inline;
+    margin-left: 43%;
+    width: 40%;
+}
+
+.reviews {
+    display: flex;
+    flex-flow: wrap-reverse;
+    align-items: center;
+    justify-content: center;
+}

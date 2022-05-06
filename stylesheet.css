@@ -1,37 +1,44 @@
 body {
-    background-color:darkorange;
+    background-color:navy;
     color: whitesmoke;
   } 
 
 h1  {
     color:white;
     text-align: center;
-    border-style:double;
     padding: 50px;
     border-radius: 2cm;
     font-size: 30px;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
+    flex: auto;
 }
 
-p {
-    color:green; 
-    border: 15px solid green;
-    padding: 50px;
-    text-align: center; 
-    font-size: 25px;
-    font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
-  }
-
-  a {
-    color:green
-  }
-
   p:hover {
-    background-color: greenyellow;
+    background-color: whitesmoke;
   }
 
-.img {
-  
+.links {
+  background-color: pink;
+  color: navy;
+  font-size: 25px;
+  font-weight: bold;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border: 15px solid pink;
+  padding: 10px;
+}
+
+.links2 {
+  background-color: pink;
+  color: navy;
+  font-size: 25px;
+  font-weight: bold;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border: 15px solid pink;
+  padding: 10px;
+
 }

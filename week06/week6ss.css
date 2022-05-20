@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(107, 31, 31);
+   
+}
+
+h1 {
+    background: orangered;
+    display:flex;
+    margin: 4vw;
+    border: solid white 5px;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    color: white;
+    font-size: 50px;
+}
+
+p {
+    background-color: pink;
+    padding: 4vw;
+    border-radius: 25px;
+}
+
+footer {
+ background: orangered;
+ display: flex;
+ border: solid white 5px;
+}
+
+footer:hover{
+    background-color: orangered;
+}
+footer button  {
+    padding: 5vw;
+    background-color: orange;
+    margin: 5vw;
+
+}
+
+button:hover{
+    background-color: white;
+    font-size: 20px;
+    color: yellow;
+}
+
+img {
+    flex-direction: row;
+}

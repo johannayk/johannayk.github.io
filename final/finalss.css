@@ -6,6 +6,11 @@ body {
     background: linear-gradient(to right, green, yellow)
   }
 
+  p {
+    color: white;
+    font-size: 40px;
+  }
+
   h1 {
     color: whitesmoke;
     font-family: 'Times New Roman', Times, serif
@@ -166,3 +171,84 @@ h1 {
   background: rgba(255, 255, 255, 0.3);
   font-size: 44.44px
 }
+
+.eye1 {
+  position: absolute;
+  top: 420px;
+  left: 630px;
+  width: 60px;
+  height: 60px;
+  background: white;
+  border-radius: 50% 50% 50% 50%;
+  transform: rotate(120deg);  
+  -webkit-animation: myOrbit 4s linear infinite;
+  -moz-animation: myOrbit 4s linear infinite;
+    -o-animation: myOrbit 4s linear infinite; 
+       animation: myOrbit 4s linear infinite;
+}
+
+.eye2 {
+    position: absolute;
+    top: 420px;
+    left: 730px;
+    width: 60px;
+    height: 60px;
+    background: white;
+    border-radius: 50% 50% 50% 50%;
+    transform: rotate(120deg);  
+    -webkit-animation: myOrbit 4s linear infinite;
+    -moz-animation: myOrbit 4s linear infinite;
+      -o-animation: myOrbit 4s linear infinite; 
+         animation: myOrbit 4s linear infinite;
+}
+
+.eyeb1 {
+  position: absolute;
+  top: 435px;
+  left: 630px;
+  width: 30px;
+  height: 30px;
+  background: black;
+  border-radius: 50% 50% 50% 50%;
+  transform: rotate(120deg); 
+  -webkit-animation: myOrbit 4s linear infinite;
+  -moz-animation: myOrbit 4s linear infinite;
+    -o-animation: myOrbit 4s linear infinite; 
+       animation: myOrbit 4s linear infinite;
+}
+
+.eyeb2 {
+  position: absolute;
+  margin: auto;
+  top: 435px;
+  left: 730px;
+  width: 30px;
+  height: 30px;
+  background: black;
+  border-radius: 50% 50% 50% 50%;
+  transform: rotate(120deg);  
+  -webkit-animation: myOrbit 4s linear infinite;
+       -moz-animation: myOrbit 4s linear infinite;
+         -o-animation: myOrbit 4s linear infinite; 
+            animation: myOrbit 4s linear infinite;
+}
+
+
+@-webkit-keyframes myOrbit {
+  from { -webkit-transform: rotate(0deg) translateX(150px) rotate(0deg); }
+  to   { -webkit-transform: rotate(360deg) translateX(150px) rotate(-360deg); }
+}
+
+@-moz-keyframes myOrbit {
+  from { -moz-transform: rotate(0deg) translateX(150px) rotate(0deg); }
+  to   { -moz-transform: rotate(360deg) translateX(150px) rotate(-360deg); }
+}
+
+@-o-keyframes myOrbit {
+  from { -o-transform: rotate(0deg) translateX(150px) rotate(0deg); }
+  to   { -o-transform: rotate(360deg) translateX(150px) rotate(-360deg); }
+}
+
+@keyframes myOrbit {
+  from { transform: rotate(0deg) translateX(150px) rotate(0deg); }
+  to   { transform: rotate(360deg) translateX(150px) rotate(-360deg); }
